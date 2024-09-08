@@ -1,5 +1,9 @@
 # fb-group-scraper
 
+This repo is not a scraping library, it is just a wrapper script to make the [facebook-scraper](https://github.com/moda20/facebook-scraper) work for scraping fb group posts (NOT group members).
+
+## How to Setup and Run
+
 1. Install library using `pip install -r requirements.txt`
 2. Install extension "Get cookies.txt LOCALLY" in Chrome or Firefox.
 3. Open [https://mbasic.facebook.com/](https://mbasic.facebook.com/), use the extension to download the cookies to local.
