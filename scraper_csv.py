@@ -8,10 +8,11 @@ import json
 #     fs._scraper.mbasic_headers = json.load(file)
 
 fs.enable_logging(logging.INFO)
+page_start = 6
 page_number = 5
 post_per_page = 100
 
-for i in range(1, page_number + 1):
+for i in range(page_start, page_start + page_number + 1):
     fs.write_posts_to_csv(
         base_url="https://mbasic.facebook.com",
         group='x', # The method uses get_posts internally so you can use the same arguments and they will be passed along
