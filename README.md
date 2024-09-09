@@ -12,5 +12,4 @@ This repo is not a scraping library, it is just a wrapper script to make the [fa
 6. If you want to start from fresh, delete "next_page.txt" and all "messages_*.csv" in folder "data". This ensures the data start from scratch. Else, if you want to continue from the previous scraping progress, don't delete the files, and adjust the `page_start` variable in the code.
 7. Change the number of page in `python scraper_csv.py` if required.
 8. Run `python scraper_csv.py`
-9. After finished, run `bash data/merge.bash`
-10. You can check the result in `data/merged.csv`
+9. After finished, you can merge the csv by running `bash data/merge.bash`, or trim the columns by running `python csv_process.py`
